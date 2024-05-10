@@ -34,6 +34,7 @@ import Click from '../public/imgs/icons/Icon_Click.png';
 import Event from '../public/imgs/icons/Icon_Event.svg';
 import Match from '../public/imgs/icons/Icon_Match.svg';
 //import HowItWorks from '@/components/ui/landingPage/HowItWorks';
+import { Footer } from '@/components/ui/Footer';
 
 export interface PageProps {
   params: {
@@ -260,6 +261,7 @@ export default async function Page({ params, searchParams }: PageProps) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
